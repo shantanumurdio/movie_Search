@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37, 35, 35, 0.922);
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: white;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.input-div {
+    width: 70%;
+    margin-left: 15px;
+}
+
+#search-input {
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 9px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-btn:hover {
+    transition: 0.3s;
+    background-color: white;
+}
+
+
+#movie-cards {
+    width: 100%;
+    margin-left: 0;
+    padding: 25px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    width: 240px;
+    height: 410px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#card-img {
+    border: 2px solid black;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    border: none;
+}
+
+.bottom {
+    width: 100%;
+    height: 38%;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Recursive', sans-serif;
+    overflow-x: hidden;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#desc {
+    text-align: start;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding: 0px 8px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-top: 10px;
+}
+
+#rating {
+    width: 50%;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.fotter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+#card-btn {
+    padding: 1px 7px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.793);
+    color: white;
+    border-radius: 4px;
+}
+
+#card-btn:hover {
+    opacity: 0.7;
+}
+
+#rt {
+    margin-left: -105px;
+}
+
+p {
+    font-family: 'Recursive', sans-serif;
+
+}
